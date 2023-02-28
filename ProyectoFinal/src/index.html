@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css-circular-prog-bar.css" rel="stylesheet">
+    
+
+    <title> Sticky Navbar</title>
+</head>
+
+
+    <body>
+    <nav class="nav ">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Mi Programar</a></h1>
+            <ul>
+
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#abount1">Infomrmacion</a></li>
+                <li><a href="#abount2">Estudios</a></li>
+                <li><a href="#abount3">Conosimientos</a></li>
+                <li><a href="#abount4">Proyectos</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="hero">
+        <div class="container">
+            <h1>Violeta Gruszczuk</h1>
+            <img src="\Img\Foto.jpeg">
+            <p> Monotributista </p>
+        </div>
+    </div>
+
+
+
+
+     <main>
+        <div class="abount1" id="abount1">
+            <section class="info" >
+                <div class="contenido-seccion">
+                    <h2 class="text title col-12" class="titulo-seccion">Sobre Mi</h2>
+                    <h3>Informacion </h3>
+            
+                    <p class="especial"> Soy ama de casa, con micro imprendimiento personal.</p>
+            
+                    <div class="fila">
+                        <div class="col">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="titulo-detalle">Perfil</span>
+                            <p> Trabajo mucho, trato de estar mejor cada dia, aprender cosas nuevas para ser mejor.</p>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-crown"></i>
+                            <span class="titulo-detalle">Ubicación</span>
+                            <p>Buenos Aires, Ranelagh 370A 1223</p>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-brain"></i>
+                            <span class="titulo-detalle">Intereses</span>
+                            <p>Cocina, Fotografia, Moda.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>    
+        </div>
+
+
+        <div class="abount2" id="abount2">
+            <div class="container">
+                <h2 class="text title col-12"> Estudios </h2>
+                <p > Estudio secundario completo.</p> 
+            </div>       
+        </div>
+
+
+        <div class="abount3" id="abount3">
+            <div class="container">
+                <h2 class="text title col-12"> Proyectos </h2>
+                <p >Mi Proyecto de vida y mi pasion es la cracion de articulos de cotillon. En este me encanta el encontrar nuevas combinanciones de diferentes cosas para poder crear piñatas, adornos tipos de velas, y mucchas otras cosas. Y gracias a este curso tengo fe que este trabajo podra ir mas adelante. </p>
+                <img src="\Img\cotillon.jpg">
+            </div>       
+        </div>
+
+
+        <div class="abount4" id="abount4">
+            <div class="container">
+                <h2 class="text title col-12"> Conocimientos </h2>
+                <div class="Conocimientos__skills">
+                    <div class="circular-progress-1">
+                        <div class="outer-1">
+                            <div class="inner-1">
+                                <div id="number-1"><h3 id="idioma1">Ruso</h3>85%</div>
+                            </div>
+                        </div>
+                        <svg width="160px" height="160px">
+                            <defs>
+                                <lineargradient id="GradientColor-1">
+                                    <stop offset="0%" />
+                                    <stop offset="100%"/>
+                                </lineargradient>
+                            </defs>
+                            <circle id="circle-1" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                    </div>
+            
+                    <div class="circular-progress-2">
+                        <div class="outer-2">
+                            <div class="inner-2">
+                                <div id="number-2"><h3 id="idioma1">Matematica</h3>70%</div>
+                            </div>
+                        </div>
+                        <svg width="160px" height="160px">
+                            <defs>
+                                <lineargradient id="GradientColor-2">
+                                    <stop offset="0%"/>
+                                    <stop offset="100%"/>
+                                </lineargradient>
+                            </defs>
+                            <circle id="circle-2" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                    </div>
+            
+                    <div class="circular-progress-3">
+                        <div class="outer-3">
+                            <div class="inner-3">
+                                <div id="number-3"><h3 id="idioma1">Html</h3>55%</div>
+                            </div>
+                        </div>
+                        <svg width="160px" height="160px">
+                            <defs>
+                                <lineargradient id="GradientColor-3">
+                                    <stop offset="0%"/>
+                                    <stop offset="100%"/>
+                                </lineargradient>
+                            </defs>
+                            <circle id="circle-3" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                    </div>
+            </div>       
+        </div>
+
+
+     </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
